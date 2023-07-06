@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1B1924;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.appContainer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 320px;
+    margin: 51px auto;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    margin: 0;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 17px 0 19px;
+    width: 272px;
+}
+
+textarea {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    margin: 0;
+    padding: 12px 16px 13px 19px;
+    width: 282px;
+    height: 93px;
+    background: #444059;
+    border: none;
+    border-radius: 8px;
+    resize: none;
+}
+
+button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #04131C;
+    background-color: #28A9F1;
+    width: 317px;
+    height: 61px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 13px 0px 24px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.endorsement-column {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap-reverse; */
+    margin: 0;
+    padding: 0;
+}
+
+.endorsement-message {
+    display: flex;
+    margin: 13px 0;
+    width: 317px;
+    background-color: #ffffff;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px; 
+    color: #1B1924;
+    padding: 13px 15px 11px 16px; 
+}
+
+/* font-family: 'Josefin Sans', sans-serif; */
+/* font-family: 'Inter', sans-serif; */
