@@ -59,7 +59,7 @@ button {
 h2 {
     font-weight: bold;
     font-size: 20px;
-    margin: 0 0 12.5px 0;
+    margin: 0 0 6px 0;
 }
 
 .endorsement-column {
@@ -72,7 +72,7 @@ h2 {
 
 .endorsement-message {
     display: flex;
-    margin: 6.5px 0;
+    margin: 13px 0;
     width: 317px;
     background-color: #ffffff;
 }
