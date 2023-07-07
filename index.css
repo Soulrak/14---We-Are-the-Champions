@@ -1,9 +1,10 @@
-html, body {
+body {
     margin: 0;
     padding: 0;
     background: #1B1924;
     color: #ffffff;
     font-family: 'Josefin Sans', sans-serif;
+    user-select: none;
 }
 
 .appContainer {
@@ -56,23 +57,26 @@ button {
     margin: 13px 0px 24px;
 }
 
+button:active {
+    background-color: #228cc7;
+}
+
 h2 {
     font-weight: bold;
     font-size: 20px;
-    margin: 0 0 6px 0;
+    margin: 0 0 15px 0;
 }
 
-.endorsement-column {
+#endorsement-list {
     display: flex;
-    flex-direction: column;
-    /* flex-wrap: wrap-reverse; */
+    flex-wrap: wrap-reverse;
+    gap: 13px;
     margin: 0;
     padding: 0;
 }
 
 .endorsement-message {
     display: flex;
-    margin: 13px 0;
     width: 317px;
     background-color: #ffffff;
 }
@@ -81,8 +85,10 @@ p {
     font-family: 'Inter', sans-serif;
     font-size: 14px; 
     color: #1B1924;
-    padding: 13px 15px 11px 16px; 
+    padding: 1px 15px 1px 16px; 
+    word-break: break-word;
 }
+
 
 /* font-family: 'Josefin Sans', sans-serif; */
 /* font-family: 'Inter', sans-serif; */
