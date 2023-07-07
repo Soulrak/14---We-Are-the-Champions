@@ -73,12 +73,14 @@ h2 {
     gap: 13px;
     margin: 0;
     padding: 0;
+    
 }
 
 .endorsement-message {
     display: flex;
     width: 317px;
     background-color: #ffffff;
+    
 }
 
 p {
@@ -87,7 +89,14 @@ p {
     color: #1B1924;
     padding: 1px 15px 1px 16px; 
     word-break: break-word;
+    
 }
+
+div {
+    width: 317px;
+}
+
+
 
 
 /* font-family: 'Josefin Sans', sans-serif; */
